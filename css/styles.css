@@ -211,6 +211,7 @@ color: var(--secondary-text);
 }
 
 .features-item-box {
+  width: 270px;
   margin-right: 30px;
 }
 
@@ -295,7 +296,7 @@ border-radius: 0px 0px 4px 4px;
 
   
   font-weight: 500;
-  /* font-size: 16px; */
+  font-size: 16px;
   color: var(--main-black-color);
   text-align: center;
   line-height: 1.18;
@@ -330,7 +331,7 @@ border-radius: 4px;
 border-color: #F5F4FA;
 border: none;
 margin-right: 8px;
-padding: 8px 30px;
+padding: 6px 22px;
 font-family: var(--main-font);  
 font-weight: 500;
 font-size: 16px;
@@ -433,12 +434,18 @@ background-color: var(--bg-dark-color);
   margin-top: 20px;
 }
 .footer-address-kyiv {
+  margin: 9px 0;
   color: var(--white);
   font-style: normal;
 }
 
+.footer-only-mail {
+  margin: 9px 0;
+
+}
 .footer-mail-phone {
-margin: 9px 0;  
+
+margin: 9px 0;
 color: var(--footer-white);
 font-style: normal;
 }
